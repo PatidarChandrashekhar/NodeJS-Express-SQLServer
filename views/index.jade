@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  table(border=1)
+    tr
+      td Employee Id
+      td Employee Name
+  each employee in employees
+    tr
+    td #{employee.ID}
+    td #{employee.Name}    
