@@ -13,7 +13,7 @@ function GetData(callback) {
   var sql = require('mssql');
   var config = {
     user: 'CHANDRA',
-    password: 'Sarkar@3690',
+    password: '**',
     database: 'SARKAR',
     server: 'SARKAR-NB\\\SARKAR2017'
   }
